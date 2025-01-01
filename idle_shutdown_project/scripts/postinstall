@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Load the LaunchDaemon after installation
+sudo launchctl load /Library/LaunchDaemons/com.example.idleshutdown.plist
+echo "Idle Shutdown installed. To uninstall, run: sudo /usr/local/bin/uninstall_idleshutdown.sh"
+
