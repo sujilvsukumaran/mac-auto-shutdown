@@ -115,8 +115,8 @@ idle_shutdown_project/
 **Build the Package:**
 1. Use `pkgbuild` to generate the `.pkg` installer:
    ```bash
-   pkgbuild --root ~/idle_shutdown_project/installer_root \
-         --scripts ~/idle_shutdown_project/scripts \
+   pkgbuild --root ./idle_shutdown_project/installer_root \
+         --scripts ./idle_shutdown_project/scripts \
          --identifier com.example.idleshutdown \
          --version 1.0 \
          --install-location / \
