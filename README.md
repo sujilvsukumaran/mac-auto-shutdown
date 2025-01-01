@@ -115,9 +115,15 @@ idle_shutdown_project/
 **Build the Package:**
 1. Use `pkgbuild` to generate the `.pkg` installer:
    ```bash
-   pkgbuild --root ~/idle_shutdown_project/installer_root             --scripts ~/idle_shutdown_project/scripts             --identifier com.example.idleshutdown             --version 1.0             --install-location /             idle_shutdown_installer.pkg
-   ```
+   pkgbuild --root ~/idle_shutdown_project/installer_root \
+         --scripts ~/idle_shutdown_project/scripts \
+         --identifier com.example.idleshutdown \
+         --version 1.0 \
+         --install-location / \
+         idle_shutdown_installer.pkg
+         
 
+   ```
 ---
 
 ### 3. How to See Logs
@@ -166,7 +172,8 @@ The script logs all actions and statuses to `/var/log/idle_shutdown.log`. To vie
 
 ## Authors
 
-* **Sujil Sukumaran** 
+* **Sujil Sukumaran**
+ 
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-Sujil-blue)](https://www.linkedin.com/in/sujilsukumaran/)  
   [![Email](https://img.shields.io/badge/Email-sujil.v.sukumaran%40gmail.com-orange)](mailto:sujil.v.sukumaran@gmail.com)
 
