@@ -1,8 +1,6 @@
 
 # Idle Shutdown Script
 
-![Header](https://i.imgur.com/jo8QAaz.png)
-
 [![Supported Platforms](https://img.shields.io/badge/Supported%20Platforms-macOS-lightgrey)](https://developer.apple.com/macos/)
 ![Shell](https://img.shields.io/badge/Shell-Scripting-orange)
 
@@ -168,7 +166,7 @@ The script logs all actions and statuses to `/var/log/idle_shutdown.log`. To vie
 
 ## Authors
 
-* **Sujil Sukumaran** - *Project Lead*  
+* **Sujil Sukumaran** 
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-Sujil-blue)](https://www.linkedin.com/in/sujilsukumaran/)  
   [![Email](https://img.shields.io/badge/Email-sujil.v.sukumaran%40gmail.com-orange)](mailto:sujil.v.sukumaran@gmail.com)
 
